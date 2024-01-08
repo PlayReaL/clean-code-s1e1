@@ -27,7 +27,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-label, .task-input {
+.task-label,
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -35,17 +36,25 @@
 .task-wrapper {
   display: flex;
 }
-#todo-tasks, #completed-tasks {
+#todo-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.task-item, .title {
+.task-item,
+.title {
   list-style: none;
 }
-.input-text, .input-checkbox,.btn-add, .btn-edt, .btn-delete {
+.input-text,
+.input-checkbox,
+.btn-add,
+.btn-edt,
+.btn-delete {
   outline: none;
 }
-.btn-add, .btn-edt, .btn-delete {
+.btn-add,
+.btn-edt,
+.btn-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -54,7 +63,9 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.btn-add:hover, .btn-edt:hover, .btn-delete:hover {
+.btn-add:hover,
+.btn-edt:hover,
+.btn-delete:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -113,7 +124,7 @@
   font-size: 18px;
   width: 226px;
 }
-.task-item >    .input-text {
+.task-item > .input-text {
   width: 226px;
 }
 .btn-delete-img {
