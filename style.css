@@ -53,7 +53,7 @@
   outline: none;
 }
 .task-item__btn-add,
-.task-item__btn-edt,
+.task-item__btn-edit,
 .task-item__btn-delete {
   background: none;
   border: 0px;
