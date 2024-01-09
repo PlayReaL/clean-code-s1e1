@@ -48,12 +48,12 @@
 .task-item__input-text,
 .task-item__input-checkbox,
 .task-item__btn-add,
-.task-item__btn-edt,
+.task-item__btn-edit,
 .task-item__btn-delete {
   outline: none;
 }
 .task-item__btn-add,
-.task-item__btn-edt,
+.task-item__btn-edit,
 .task-item__btn-delete {
   background: none;
   border: 0px;
@@ -64,7 +64,7 @@
   cursor: pointer;
 }
 .task-item__btn-add:hover,
-.task-item__btn-edt:hover,
+.task-item__btn-edit:hover,
 .task-item__btn-delete:hover {
   color: #3a3a3a;
 }
